@@ -19,7 +19,7 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer className="header-color" title="Title">
+        <Drawer className="nav-color" title="Title">
             <Navigation>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 <Link to="/">Home</Link>
@@ -28,10 +28,10 @@ class App extends Component {
             </Navigation>
         </Drawer>
         <Content>
-            <div className="page-content" />
+            <div className="page-content"/>
             <Main/>
         </Content>
-    </Layout >
+    </Layout>
 </div>
     
       );
