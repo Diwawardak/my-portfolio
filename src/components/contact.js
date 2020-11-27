@@ -13,7 +13,7 @@ class Contact extends Component {
         return(
     
         <div className="contact-grid">
-                <h2>CONTACT ME</h2>
+                <h2 className="contact-text">CONTACT ME</h2>
               
     
                 <div className="contact-list">

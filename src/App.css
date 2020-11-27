@@ -113,6 +113,8 @@
   
   .contact-grid h2 {
     font-family: 'Anton', sans-serif;
+    color: white;
+    padding-bottom: 5%;
   }
   
   .contact-grid p {
@@ -166,6 +168,8 @@
     height: 70vh;
     width: 50vw;
     border-radius: 10px;
+    margin-bottom: 20%;
+    
 }
 
 .icon-name {

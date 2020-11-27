@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title="MY PORTFOLIO" scroll>
+        <Header className="header-color" title=" " scroll>
             <Navigation>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 <Link to="/">Home</Link>
@@ -19,14 +19,13 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer className="nav-color" title="Title">
+        {/* <Drawer className="nav-color" title="Title">
             <Navigation>
-                {/* <Link to="/aboutme">About Me</Link> */}
-                <Link to="/">Home</Link>
+                <Link to="/aboutme">About Me</Link> 
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
-        </Drawer>
+        </Drawer> */}
         <Content>
             <div className="page-content"/>
             <Main/>
