@@ -1,8 +1,8 @@
 
 .header-color {
-    background: #FDC830;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: white; /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #F37335, #FDC830); Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #F37335, #FDC830); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
@@ -10,9 +10,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #FDC830;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #FDC830;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #F37335, #FDC830);  Chrome 10-25, Safari 5.1-6
+    background: linear-gradient(to right, #F37335, #FDC830); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 
 }
 
@@ -183,9 +183,14 @@
     align-items: center;
     padding-top: 10%;
     padding-left: 10%;
-    text-decoration: none;
+    /* text-decoration: none; */
     list-style-type: none;
     color: white;
     font-size: 20px;
+}
+
+p {
+    /* list-style-type: none; */
+    text-decoration: none;
 }
 
