@@ -14,6 +14,7 @@ class App extends Component {
         <Header className="header-color" title="MY PORTFOLIO" scroll>
             <Navigation>
                 {/* <Link to="/aboutme">About Me</Link> */}
+                <Link to="/">Home</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
