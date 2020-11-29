@@ -76,7 +76,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <img src={Animation} alt="animation-site" style={{height: 300, width: 335}}/>
                         <CardTitle>Animation Portfolio</CardTitle>
-                        <CardText> This is an animation portfolio I created using JavaScript, HTML and CSS using my own gis.</CardText>
+                        <CardText> This is an animation portfolio I created using JavaScript, HTML and CSS using my own art.</CardText>
                     <CardActions border>
                     <Button colored href="https://diwawardak.github.io/art/index.html">Live Demo</Button>
                     </CardActions>
